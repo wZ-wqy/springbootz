@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="assets/js/jquery-1.8.2.min.js" ></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(3000);
+            });
+        });
+    </script>
+</head>
+
+<body style="text-align:center;">
+
+<button>点一下试试</button>
+<br><br>
+<div id="div1" ><img src="assets/img/1.jpeg"></div>
+<br>
+<div id="div2"><img src="assets/img/2.jpeg"></div>
+<br>
+<div id="div3"><img src="assets/img/3.png"></div>
+</body>
+
+</body>
+</html>
